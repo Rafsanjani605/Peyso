@@ -1,0 +1,832 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-image: url('/images/hero-3-bg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    margin-bottom: 120px;
+   
+
+}
+
+header img{
+    width: 140px;
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 100px;
+
+
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+header ul li {
+    list-style: none;
+
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+
+header article {
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+header > article > div{
+    position: absolute;
+    top: 190px;
+    padding: 70px 120px;
+    color: white;
+    background-color: rgba(28, 25, 25, 0.685);
+    text-align: center;
+    border-radius: 0px 30px;
+}
+
+header > article > div > button{
+    margin-top: 40px;
+    padding: 15px 50px;
+    border-radius: 0px 20px  ;
+    background-color: rgb(30, 30, 218);
+    color: white;
+    border: 0px;
+    font-size: 20px;
+
+}
+
+header h3{
+    padding-bottom: 10px;
+    font-size: 30px;
+} 
+header h1{
+    font-size: 40px;
+    padding-bottom: 16x;
+    padding-bottom: 10px
+}
+
+/* dor medium devices */
+
+@media screen and (max-width: 1100px) {
+    header{
+        background-image: url('/images/hero-3-bg.jpg');
+        height: 100vh;
+        
+        background-repeat: no-repeat;
+        padding-top: 30px;
+        margin-bottom: 120px;
+       
+    
+    }
+    
+    header img{
+        width: 80px;
+    }
+    
+    
+    header nav{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 30px;
+    
+    }
+    
+    header ul{
+        
+        gap: 20px;
+    }
+    
+    
+    header > article > div{
+        position: absolute;
+        top: 190px;
+        padding: 40px 80px;
+       
+    }
+    
+    header > article > div > button{
+        margin-top: 40px;
+        padding: 15px 50px;
+        border-radius: 0px 20px  ;
+        background-color: rgb(30, 30, 218);
+        color: white;
+        border: 0px;
+        font-size: 20px;
+    
+    }
+ 
+   
+}
+
+
+
+@media screen and (max-width: 900)  {
+    /* Your styles for small mobile devices (landscape) */
+    
+    header div{
+        position: absolute;
+        top: 600px;
+        padding: 70px 120px;
+        color: white;
+        background-color: rgba(28, 25, 25, 0.685);
+        text-align: center;
+        border-radius: 0px 30px;
+    }
+
+  }
+
+
+
+
+  
+  @media screen and (max-width: 600px) {
+    header{
+        
+    }
+    
+    header img{
+        width: 100px;
+    }
+    
+    
+    header nav{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    
+    
+    
+        padding-left: 5px;
+        padding-right: 5px;
+    
+    }
+    
+    header ul{
+        
+        gap: 5px;
+    }
+    
+    
+    header > article > div{
+        position: absolute;
+        top: 160px;
+        padding: 40px 5px;
+       
+    }
+    
+    header > article > div > button{
+        margin-top: 40px;
+        padding: 15px 50px;
+        border-radius: 0px 20px  ;
+        background-color: rgb(30, 30, 218);
+        color: white;
+        border: 0px;
+        font-size: 20px;
+    
+    }
+ 
+   
+}
+
+/* digital web start */
+
+.digital-web-design{
+    padding: 0px 200px;
+    text-align: center;
+    background-color: hsl (0,0,1);
+    margin-bottom: 150px;
+
+
+}
+
+.digital-web-design > article{
+    padding-bottom: 100px;
+}
+  .digital-web-design > div{
+    display: flex;
+    gap: 40px;
+
+  }
+
+  .digital-web-design i{
+    font-size: 40px;
+    color: purple;
+    padding-bottom: 30px;
+  }
+.digital-web-design p{
+    padding-bottom: 30px;
+    color: rgba(128, 128, 128, 0.807);
+}
+
+  .digital-web-design h1{
+    font-size: 30px;
+      padding-bottom: 20px;
+  
+
+    }
+
+@media screen and (max-width: 900px) {
+    
+    .digital-web-design{
+        padding: 0px 10px;
+        text-align: center;
+        margin-bottom: 150px;
+
+
+    }
+    .digital-web-design > div{
+        display: grid;
+        padding: 10px 50px;
+        box-shadow: beige;
+        
+      }
+    
+}
+
+  hr{
+    width: 225px;
+    margin-top: 10px;
+    
+    height: 1px;
+    background-color: purple;
+    
+    
+  }
+
+  #key-feature-rowline{
+
+display: flex;
+justify-content: center;
+}
+
+  #key-feature-rowline h4 {
+
+    text-align: center;
+    padding-bottom: 10px
+    
+    
+
+  }
+
+
+
+
+  @media screen and (max-width : 800px) {
+    .key-features main{
+        display: grid;      
+    }
+}
+    
+/* key features */
+
+.key-features{
+    background-color: rgba(189, 182, 197, 0.256);
+    padding-top: 65px;
+    position: relative;
+}
+
+.key-features main {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 200px;
+    align-items: center;
+    
+}
+
+
+.key-features h4{
+    color: rgba(0, 0, 0, 0.611);
+}
+
+
+.key-features hr{
+    padding-bottom: 2px;
+}
+
+
+
+
+#donec-vitae{
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.412);
+
+
+}
+#donec-vitae i{
+    background-color:rgb(0, 119, 128);
+    border-radius: 100%;
+    
+    
+
+}
+
+#donec-vitae > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 2%;
+}
+
+
+#improve{
+    padding-bottom: 15px;
+}
+
+.language {
+    padding-bottom: 3px;
+    color: rgba(0, 0, 0, 0.412);
+    font-weight: 700;
+
+}
+
+
+
+.key-features article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding:60px 50px ;
+}
+.skewimage{
+    width: 500px;
+    transform: skew(5deg);
+    padding-left: 30px;
+    box-shadow: 10px;
+}
+
+.key-features article h2{
+    padding-bottom: 20px
+
+}
+.key-features article p{
+    padding-bottom: 10px;
+}
+
+.key-features  button{
+    
+    border: none;
+    color: blue;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+@media screen and (max-width : 800px) {
+   
+
+    .key-features main {
+
+        display: grid;
+        padding: 5px 10px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .key-features img{
+        width: 340px;
+        padding-left: 5px;
+
+    }
+
+    .key-features article{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .build-dream-website{
+    
+   
+        background-color: purple;
+        padding: 70px 5px;
+    }
+    
+}
+
+/* build dream website */
+.build-dream-website{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(189, 182, 197, 0.256) ;
+
+    
+   
+    background-color: rgba(65, 4, 65, 0.966);
+    padding: 70px 40px;
+
+    
+}
+
+.build-dream-website h3{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+.build-dream-website p{
+    color: rgba(239, 231, 231, 0.609);
+}
+
+.build-dream-website button{
+    padding: 7px 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: cadetblue;
+}
+
+
+/* Our planning start */
+
+.our-planning {
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgba(189, 182, 197, 0.256);
+    padding-bottom: 140px;
+    margin-bottom: 500px;
+
+
+
+}
+
+
+.our-planning main{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding:50px 150px ;
+
+}
+
+.our-planning main > div{
+    padding: 50px 90px 70px 90px;
+
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:  1px 4px 15px rgb(224, 178, 178) ;
+}
+.our-planning span{
+    color: blue;
+}
+
+.our-planning  p{
+    font-size: 15px;
+    padding-bottom: 15px;
+    
+
+
+
+}
+
+.our-planning i{
+    font-size: 30px;
+    color: green;
+    padding-bottom: 10px;
+
+}
+.our-planning h3{
+    padding-top: 20px;
+    padding-bottom: 20px
+} 
+
+.our-planning button{
+    background-color: cadetblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+#normal-color{
+    color: rgba(0, 0, 0, 0.405);
+}
+
+
+
+/* .test{
+    height: 100vh;
+    background-color: green;
+} */
+/* for small devices */
+/* @media screen and(max-width: 767px) {
+    .our-planning main{
+        background-color: red;
+        display: grid;
+        grid-template-columns:1fr;
+        justify-content: space-between;
+        padding: 10px;
+        
+        
+    
+    }
+    
+} */
+
+/* break */
+
+.our-planning article{
+    padding: 30px 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    text-align: start;
+    justify-content: center;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.our-planning article > div{
+    display: flex;
+    gap: 20px;
+    width: 70%;
+}
+
+.our-planning article h2{
+    padding-bottom: 20px;
+}
+
+.our-planning article i{
+    color: white;
+    font-size: 20px;
+    padding-top: 4px;
+    background-color: cadetblue;
+    border-radius: 70%;
+    padding: 5px;
+    
+}
+
+
+@media (max-width: 997px){
+    .our-planning main{
+        display: grid;
+        gap: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .our-planning > article{
+        padding: 10px 30px;
+        display: grid;
+        grid-template-columns:  1fr;
+        gap: 50px;
+        text-align: start;
+        /* position: relative; */
+        
+    }
+
+    
+    
+    .our-planning article > div{
+        display: flex;
+        gap: 20px;
+    }
+    
+
+
+}
+
+@media (max-width: 570px) {
+    /* Styles for tablet screens */
+    .our-planning {
+        padding-bottom: 250px;
+    }
+  }
+  
+
+
+/* our planning end */
+
+
+        /*form  start*/
+
+        form{
+            margin: 0px 70px 70px 70px;
+           
+            padding: 50px 70px;
+            background-color: white;
+            box-shadow: 1px 1px 13px;
+            border-radius: 10px;
+            position: absolute;
+            top: 400px;
+            left: 350px;
+            
+            
+        }
+
+        #form-name-email{
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+        }
+        /* #form-name-email input{
+            width: 550px;
+            height: 25px;
+            
+        } */
+
+        .input{
+            width: 100%;
+            height: 25px;
+        }
+
+        form > div{
+            margin-bottom: 20px;
+        }
+        form h2{
+            margin-bottom: 18px;
+        }
+
+        .btn{
+            display: flex;
+            justify-content: end;
+        }
+.btn button{
+    margin-top: 20px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+
+/* for small devices */
+
+@media (max-width:1280 ) {
+    form{
+
+        position: absolute;
+        top: 590px;
+        left: 400px;
+        margin-left: 0px;
+        padding-left: 200px;
+
+    }
+    
+}
+
+@media (max-width: 1199px) {
+    /* Styles for large desktop screens */
+
+    form{
+        position: absolute;
+        top: 500px;
+        left: 200px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    /* Styles for desktop screens */
+    form{
+        top: 600px;
+        left: 150px;
+        margin-left: 10px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    /* Styles for tablet screens */
+
+    form{
+        top: 650px;
+        margin-left: 10px;
+        padding: 60px 50px;
+    }
+
+    #form-name-email{
+        display: grid;
+        
+        gap: 15px;
+    }
+
+
+
+  }
+
+  @media (max-width: 500px) {
+    /* Styles for tablet screens */
+    form{
+        top: 870px;
+        margin-left: 20;
+        left: 90px;
+        padding: 40px 20px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    /* Styles for tablet screens */
+    form{
+        top: 900px;
+        left: 60px;
+        margin-left: 0px;
+        padding: 40px 20px;
+    }
+    
+  }
+  
+  
+  
+  
+        /* form end */
+
+        /* footer starts */
+
+footer {
+    padding: 70px 20px 90px 40px;
+    background-color: #343a40;
+
+    display: grid;
+    grid-template-columns:2fr 1fr 1fr 1.5fr ;
+    gap: 10px;
+
+
+}
+
+footer h3{
+    font-size: 20px;
+    color: white;
+}
+footer p{
+    color: rgba(207, 204, 204, 0.685);
+}
+
+footer > div{
+   display:flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+footer img{
+    width: 80px;
+}
+
+footer a{
+    color:rgba(207, 204, 204, 0.685); 
+    text-decoration: none;
+}
+
+footer i{
+    padding-right: 10px;
+    color: white;
+}
+
+#facebook{
+
+}
+
+.footer-end{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+    align-items: center;
+    color: white;
+    background-color: #2f353a;
+}
+
+
+
+/* for small devices footer */
+
+@media (max-width: 767px) {
+
+    footer > div {
+        
+      
+        
+    
+    }
+    
+  }
+  
+        /* footer ends */
